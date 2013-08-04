@@ -1,0 +1,262 @@
+html{
+    width: 80%;
+    margin: auto;
+    background-image: url('bg.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 'Roboto', sans-serif;
+}
+
+body{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    overflow: auto;    
+    -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+}
+.header {
+    font-family: 'Damion', cursive;
+    width:80%;
+}
+
+#mainheader{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    float: left;
+    opacity:0.9;
+    filter:alpha(opacity=90);
+    z-index:99;
+    border-bottom: 2px groove rgba(20,20,110,.4);
+}
+
+#me{
+    font-size: 80px;
+    color: #c92238;
+    line-height: 100px;    
+}
+
+#subheader{
+    height: 40px;
+}
+
+#always{
+    font-size: 30px;
+    line-height: 40px;
+    color: #375a9b;
+}
+
+#bord{
+    height: 5px;
+    border-top: 2px groove rgba(201, 34, 56, .4);
+    border-bottom: 2px groove rgba(201, 34, 56, .4);
+}
+
+#all{
+    width: 80%;
+    margin-top: 12%;
+}
+
+.nav{
+    float: left;    
+    height: 500px;    
+    width: 25%;  
+    border-right: 3px groove rgba(201, 34, 56, .7);    
+    font-size: 25px;
+    list-style-type: none;
+    margin-left: -100px;
+    font-weight: bold;
+}
+
+.nav li{
+    padding: 10px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    text-align: right;
+    border-bottom: 1px groove rgba(0,0,0,.1);
+}
+
+.nav li:hover{
+    color: rgba(201, 34, 56, .7);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav li:focus{
+    outline: none;
+    background-color: rgba(0,0,0,.9);
+}
+
+.selected{  
+    color: rgba(201, 34, 56, .7);
+}
+
+.unselected{
+    color: rgba(55, 90, 155, 1);  
+}
+
+#whatsInside{
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    margin-top: 30px;
+    margin-left: 5%;
+    width: 70%;
+}
+
+.contactImg{
+    max-height: 170px;
+    max-width: 170px;
+    border: 5px solid rgba(55, 90, 155, .7);
+    padding: 10px;
+    -moz-box-shadow:    1px 1px 5px 2px rgba(0,0,0,.3);
+    -webkit-box-shadow: 1px 1px 5px 2px rgba(0,0,0,.3);
+    box-shadow:         1px 1px 5px 2px rgba(0,0,0,.3);    
+}
+
+.cont{
+    padding: 10px;
+}
+
+#phn{
+    font-size: 30px;
+    color: rgba(55, 90, 155, 1);  
+}
+@media only screen and (width: 1024px){
+    
+    .nav{
+        height: 400px;
+    }
+
+    .contactImg{
+        max-height: 140px;
+        max-width: 140px;
+    }
+
+    #phn{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 960px) {
+    
+    body {
+        min-width: 720px;
+    }
+    
+    #me{
+        font-size: 60px;
+    }    
+
+    #always{
+        font-size: 30px;
+    }
+
+    #all{
+        margin-top: 15%;
+    }
+
+    .contactImg{
+        max-height: 120px;
+        max-width: 120px;
+    }
+    
+    #phn{
+        font-size: 20px;
+    }    
+}
+
+@media only screen and (max-width: 479px) {
+
+    body {
+        min-width:240px;
+    }
+    
+    .copyright {
+        font-size:10px;
+    }
+
+    #mainheader{
+        height: 50px;
+    }
+    #me{
+        font-size: 30px;
+        line-height: 50px;
+    }    
+
+    #subheader{
+        height: 30px;
+    }
+
+    #always{
+        font-size: 20px;
+        line-height: 30px;
+    }  
+
+    #all{
+        margin-top: 10%;
+    }
+
+    #whatsInside{
+        min-width: 150px;
+    }
+
+    .nav{
+        margin-left: -60px;
+        height: 300px;
+    }  
+
+    .nav li{
+        font-size: 15px;
+    }
+
+    .contactImg{
+        max-height: 60px;
+        max-width: 60px;
+        padding: 2px;
+    }
+
+    #phn{
+        font-size: 10px;
+    }    
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 719px) {
+
+    body {
+        min-width:480px;
+    }
+
+    #me{
+        font-size: 60px;
+    }    
+
+    #always{
+        font-size: 30px;
+    }
+
+    #all{
+        margin-top: 20%;
+    }
+
+    .nav{
+        margin-left: -70px;
+    }  
+
+    .nav li{
+        font-size: 15px;
+    }
+
+    .contactImg{
+        max-height: 80px;
+        max-width: 80px;
+        padding: 5px;
+    }
+
+    #phn{
+        font-size: 15px;
+    }    
+
+}

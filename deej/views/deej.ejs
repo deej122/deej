@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=title%></title>
+    <link rel="stylesheet" type="text/css" href="deej.css">
+    <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="deej.js"></script>
+  </head>
+  
+<body style="margin:0;">
+<header class="header" id="mainheader">
+
+  <span id="me">DJ Jagannathan</span>
+
+<div class="header" id="subheader">
+
+  <span id="always">Always building</span>
+
+</div>
+
+<div id="bord">
+</div>
+
+</header>
+
+<div id="all">
+
+  <ul class="nav">
+
+    <li id="abt" class="selected" onclick="showAbt();">Me</li>
+    <li id="stuff" class="unselected" onclick="showStuff();">Stuff I've Done</li>
+    <li id="contact" class="unselected" onclick="showContact();">Let's Chat</li>
+
+  </ul>
+
+  <div id="whatsInside">
+
+    <div id="abtContent">
+      yo
+    </div>
+
+    <div id="stuffContent" style="display:none;">
+      yoyo
+    </div>
+
+    <div id="contactContent" style="display:none;">
+      <span class="cont"><img src="fb.png" id="fb" class="contactImg"/></span>
+      <span class="cont"><img src="twit.png" id="twit" class="contactImg"/></span><br><br>
+      <span class="cont"><img src="lin.png" id="lin" class="contactImg"/></span>
+      <span class="cont"><img src="eml.png" id="eml" class="contactImg"/></span><br><br>
+      <span id="phn">Phone Number: 845.702.3425</span>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
