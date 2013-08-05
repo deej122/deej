@@ -131,14 +131,4 @@
             $('li#abt').addClass("unselected");
             });
           });  
-
-
-
-    function showEmlText()
-    {
-      if ( document.getElementById('emlText').style.display == "none" ) {
-            document.getElementById('emlText').style.display= "";
-          } /*else {
-            document.getElementById('portfolioContent').style.display = "";
-          } */                                        
-    }                 
+               
