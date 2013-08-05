@@ -1,7 +1,10 @@
 html{
     width: 100%;
-    margin: auto;
-    background:#388E8E;
+    background-image: url('blueTex.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
     font-family: 'Fauna One', serif;
 }
 
