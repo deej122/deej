@@ -176,6 +176,11 @@
 #emlA{
     line-height: 30.5px;
 }
+
+.foot{
+    font-size: 8px;
+}
+
 }
 
 @media only screen and (min-width: 480px) and (max-width: 719px) {
@@ -296,6 +301,10 @@
 
 #emlA{
     line-height: 24.5px;
+}
+
+.foot{
+    font-size: 8px;
 }
 
 }
@@ -419,5 +428,7 @@
     line-height: 24.5px;
 }
 
-
+.foot{
+    font-size: 6px;
+}
 }
