@@ -60,6 +60,15 @@
     body {
         min-width: 720px;
     }
+
+#name{
+    font-size: 30px;
+    height: 400px;
+}
+
+#tag{
+    font-size: 15px;
+}    
     
     .nav{
         height: 400px;
@@ -83,12 +92,6 @@
 .small{
     font-size: 10px;
     text-align: left;
-}
-
-
-#name{
-    font-size: 30px;
-    height: 400px;
 }
 
 .stuffWrap{
@@ -190,6 +193,7 @@
     }
 
     #name{
+    margin: auto;
     margin-top: 30px;
     font-size: 40px;
     width: 100%;
@@ -197,6 +201,11 @@
     height: 30px;
     border-right:none;
 }
+
+#tag{
+    margin-top: -30px;
+    font-size: 10px;
+}   
     
       .nav{
         width: 100%;
@@ -323,6 +332,11 @@
     height: 30px;
     border-right:none;
 }
+
+#tag{
+    margin-top: -30px;
+    font-size: 8px;
+}   
     
       .nav{
         width: 100%;
