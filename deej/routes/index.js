@@ -8,5 +8,5 @@ exports.index = function(req, res){
 };
 
 exports.deej = function(req, res){
-  res.render('deej', { title: 'deej' });
+  res.render('deej2', { title: 'deej' });
 };
