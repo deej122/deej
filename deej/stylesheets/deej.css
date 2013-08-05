@@ -15,6 +15,11 @@ body{
     overflow: auto;    
     -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
+
+header a{
+    text-decoration: none;
+}
+
 .header {
     font-family: 'Damion', cursive;
     width:80%;
