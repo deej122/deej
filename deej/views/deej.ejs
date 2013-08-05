@@ -3,6 +3,7 @@
   <head>
     <title><%=title%></title>
     <link rel="stylesheet" type="text/css" href="deej.css">
+    <link rel="stylesheet" type="text/css" href="size.css">
     <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +12,26 @@
   </head>
   
 <body style="margin:0;">
+<!-- FB and Twitter Script-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!--********************************************************************-->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+<!--End FB and Twitter Script-->
+
 <header class="header" id="mainheader">
 
   <span id="me">DJ Jagannathan</span>
 
 <div class="header" id="subheader">
 
-  <span id="always">Always building</span>
+  <span id="always">Build, Hack, Innovate</span>
 
 </div>
 
@@ -39,24 +53,115 @@
   <div id="whatsInside">
 
     <div id="abtContent">
-      yo
+      <p id="um" class="big">
+        I'm a student about to enter my Sophomore year at the University of Michigan.
+      </p>
+      <p id="ed" class="small">
+        I'm extremely passionate about revolutionizing the education game and am constantly working to do just that.
+      </p>
+      <p id="ms" class="small">
+        One of my goals is to make the creation and discovery of new music easier and more accessible.
+      </p> 
+      <p id="si" class="small">
+        I believe social interaction is somehow the solution to it all.
+      </p>        
     </div>
 
     <div id="stuffContent" style="display:none;">
-      yoyo
+      <div class="stuffWrap">   
+        <a href="http://www.projectcinta.com" target="_blank"> 
+          <div class="stuffImg" id="cinta">
+            <img src="cinta.png" id="cintaImg"/> 
+          </div>
+        </a>  
+        <div class="desc">
+          <a href="http://www.projectcinta.com" target="_blank">
+            <h3>Project: Cinta</h3>
+          </a>  
+          <p class="descBig">Founded Project: Cinta</p>
+          <p class="descSmall">Encouraging high school students to take initiative and work together to solve problems that they are passionate about.</p>
+        </div>
+      </div>  
+      <br>    
+      <div class="stuffWrap">   
+        <a href="http://stamp.fm" target="_blank"> 
+          <div class="stuffImg" id="stamp">
+            <img src="stamp.jpg" id="stampImg"/> 
+          </div>
+        </a>  
+        <div class="desc">
+          <a href="http://stamp.fm" target="_blank">
+            <h3>Stamp.fm</h3>
+          </a>  
+          <p class="descBig">Built Stamp.fm: The Online Music Tournament.</p>
+          <p class="descSmall">Discover the best new artists. All you have to do is vote.</p>
+        </div>
+      </div>
+      <br>
+      <p class="descSmall">
+        I'm always working on something, so check back soon for updates!
+      </p>                
     </div>
 
     <div id="contactContent" style="display:none;">
+      <div class="wrapper">
       <span class="cont"><img src="fb.png" id="fb" class="contactImg"/></span>
-      <span class="cont"><img src="twit.png" id="twit" class="contactImg"/></span><br><br>
+      <div class="text">
+        <img class="pimg" src="https://graph.facebook.com/100001192749167/picture"/><br><br>
+        <a href="https://www.facebook.com/profile.php?id=100001192749167" target="_blank">
+          DJ Jagannathan
+        </a><br>
+        <div id="fbDiv">
+          <div class="fb-follow" data-href="https://www.facebook.com/profile.php?id=100001192749167" data-width="100" data-layout="button_count" data-show-faces="false"></div>
+        </div>  
+      </div>
+      </div>
+      <div class="wrapper">
+      <span class="cont"><img src="twit.png" id="twit" class="contactImg"/></span>
+      <div class="text">
+        <img class="pimg" src="https://si0.twimg.com/profile_images/3655752919/19a90b90f4165645c49bd642f48bfb56_bigger.jpeg"/><br><br>      
+        <a href="https://twitter.com/deej122" target="_blank">
+          @deej122
+        </a><br>
+        <div id="twitDiv">
+        <a href="https://twitter.com/deej122" class="twitter-follow-button" data-show-count="true">Follow @deej122</a> 
+        </div>
+      </div>
+      </div>
+      <br><br>
+      <div class="wrapper">
       <span class="cont"><img src="lin.png" id="lin" class="contactImg"/></span>
-      <span class="cont"><img src="eml.png" id="eml" class="contactImg"/></span><br><br>
-      <span id="phn">Phone Number: 845.702.3425</span>
+      <div class="text">
+        <img class="pimg" src="http://m.c.lnkd.licdn.com/media/p/7/000/1bc/13f/3fd33e8.jpg"/><br><br>
+        <a href="http://www.linkedin.com/profile/view?id=212412219" target="_blank" id="linA">
+          Desikan Jagannathan
+        </a><br>
+        <div id="linDiv">
+          <script src="//platform.linkedin.com/in.js" type="text/javascript">
+            lang: en_US
+          </script>
+          <script type="IN/Share" data-counter="right"></script>   
+        </div>       
+      </div>
+      </div>
+      <div class="wrapper">
+      <span class="cont" ><img src="eml.png" id="eml" class="contactImg"/></span>
+      <div class="text">
+        <a href="mailto:desjag@gmail.com" target="_top" id="emlA">
+        desjag AT gmail_com</a>
+      </div>
+      </div>
+      <br><br>
     </div>
 
   </div>
 
 </div>
 
+<div class="foot">
+  <p>
+    Copyright &copy; 2013 Desikan Jagannathan. All rights reserved.
+  </p> 
+</div>
 </body>
 </html>
